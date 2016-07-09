@@ -35,5 +35,8 @@ DEVICE_PATH := device/oneplus/dumpling
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
+# Power
+TARGET_POWERHAL_VARIANT := none
+
 # inherit from the proprietary version
 -include vendor/oneplus/dumpling/BoardConfigVendor.mk
