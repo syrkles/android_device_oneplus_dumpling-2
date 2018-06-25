@@ -1,0 +1,38 @@
+[
+  {
+    "remote": "github",
+    "repository" : "RMarchetto96/android_device_oneplus_msm8998-common",
+    "target_path": "device/oneplus/msm8998-common",
+    "branch": "aosp"
+  },
+  {
+    "remote": "github",
+    "repository" : "RMarchetto96/android_device_oppo_common",
+    "target_path": "device/oppo/common",
+    "branch": "aosp"
+  },
+  {
+    "remote": "github",
+    "repository" : "RMarchetto96/android_packages_resources_OppoGestures",
+    "target_path": "packages/resources/OppoGestures",
+    "branch": "aosp"
+  },
+  {
+    "remote": "github",
+    "repository" : "RMarchetto96/android_kernel_oneplus_msm8998",
+    "target_path": "kernel/oneplus/msm8998",
+    "branch": "aosp"
+  },
+  {
+    "remote": "github",
+    "repository" : "RMarchetto96/proprietary_vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "branch": "aosp"
+  },
+  {
+    "remote": "github",
+    "repository" : "RMarchetto96/android_prebuilts_clang_host_linux-x86_clang-r328903",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r328903",
+    "branch": "aosp"
+  }
+]
