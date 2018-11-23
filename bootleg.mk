@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
 # Inherit some common PE stuff.
-$(call inherit-product, vendor/nitrogen/config/common.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 
 TARGET_HAS_NFC_SUPPORT := true
