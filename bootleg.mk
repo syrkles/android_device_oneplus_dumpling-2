@@ -23,13 +23,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
 # Inherit some common PE stuff.
-$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+$(call inherit-product, vendor/nitrogen/config/common.mk)
 
 
 TARGET_HAS_NFC_SUPPORT := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := bootleg_dumpling
+PRODUCT_NAME := nitrogen_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
