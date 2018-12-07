@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
 # Inherit some common PE stuff.
-$(call inherit-product, vendor/statix/config/common_full_phone.mk)
+$(call inherit-product, vendor/statix/config/common.mk)
 
 PRODUCT_NAME := statix_dumpling
 PRODUCT_DEVICE := dumpling
